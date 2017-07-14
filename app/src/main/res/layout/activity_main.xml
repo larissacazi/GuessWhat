@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zimmermann.larissa.guesswhat.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Choose a number from 0 to 100:"
+        android:textSize="@dimen/textSizeQuestion"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/resetButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_button"
+        android:layout_alignBaseline="@+id/playButtonId"
+        android:layout_alignBottom="@+id/playButtonId"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <Button
+        android:id="@+id/playButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:text="@string/play_button"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/randomNumberId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="@string/textNumber"
+        android:textSize="@dimen/textNumber"
+        android:layout_below="@+id/resetButtonId"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resetButtonId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="@string/randomNumber"
+        android:textSize="@dimen/textSizeQuestion"
+        android:textStyle="bold" />
+
+</RelativeLayout>

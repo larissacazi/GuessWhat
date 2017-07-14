@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GuessWhat</string>
+    <string name="play_button">PLAY</string>
+    <string name="textNumber">EMPTY</string>
+    <string name="randomNumber">Random Number:</string>
+    <string name="reset_button">RESET</string>
+</resources>
